@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack e-commerce application with React, Node.js, Express, and MongoDB",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "ISC"
+}
