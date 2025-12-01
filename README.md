@@ -2,13 +2,6 @@
 
 A full-stack e-commerce application built with React, Node.js, Express, and MongoDB.
 
-## Features
-
-- Product listing with pagination (20 products per page)
-- Filter by category and price range
-- Modern, responsive UI design
-- RESTful API backend
-- MongoDB Atlas integration
 
 ## Setup Instructions
 
@@ -24,8 +17,7 @@ A full-stack e-commerce application built with React, Node.js, Express, and Mong
    npm install
    ```
 
-3. Update `.env` file with your MongoDB password:
-   - Replace `<db_password>` with your actual password
+3. Update `.env` file 
 
 4. Seed the database with sample products:
    ```bash
@@ -56,15 +48,4 @@ A full-stack e-commerce application built with React, Node.js, Express, and Mong
    ```
    Frontend will run on http://localhost:3000
 
-## API Endpoints
 
-- `GET /api/products` - Get products with pagination and filters
-  - Query params: `page`, `limit`, `category`, `minPrice`, `maxPrice`
-- `GET /api/products/categories` - Get all unique categories
-
-## Technology Stack
-
-- **Frontend**: React, CSS3
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB Atlas
-- **ODM**: Mongoose
